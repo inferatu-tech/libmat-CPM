@@ -14,5 +14,6 @@ function [ frPulse ] = RecFreqPulse( L, T )
 assert(L>=1,'[RecPhasePulse]: Invalid L...');
 assert(T>=1,'[RecPhasePulse]: Invalid T...');
 frPulse = ones(1,L*T)/(2*L*T);
+
 end %RecFreqPulse 
             
